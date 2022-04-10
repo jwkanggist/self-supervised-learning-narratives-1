@@ -14,36 +14,35 @@
 
 #### Representation learning for clustering
 
+| | paper title | 논문 발표 | 코드 분석
+-- | -- | -- | --
+1주차 | [DEC: Unsupervised Deep Embedding for Clustering Analysis](https://proceedings.mlr.press/v48/xieb16.pdf) | @jwkanggist | @jwkanggist
+1주차 | [DAC: Deep Adaptive Image Clustering](https://openaccess.thecvf.com/content_ICCV_2017/papers/Chang_Deep_Adaptive_Image_ICCV_2017_paper.pdf) | @jwkanggist | @jwkanggist
+2주차 | [DeepClustering: Deep Clustering for Unsupervised Learning of Visual Features](https://arxiv.org/abs/1807.05520) |   |
 
-| | paper title | Affiliation | official repo | publisher | 논문 발표 | 코드 분석
--- | -- | -- | -- | -- | -- | --
-1주차 | DEC: Unsupervised Deep Embedding for Clustering Analysis | Facebook | link | ICML 2016 | 강재욱 | 강재욱
-1주차 | DAC: Deep Adaptive Image Clustering | National Laboratory of Pattern Recognition, Institute of Automation, | link | ICCV 2017 | 강재욱 | 강재욱
-2주차 | DeepClustering: Deep Clustering for Unsupervised Learning of Visual Features, | Facebook | link | ECCV 2018 |   |
 
 #### Representation learning 코어 기술
 
-
-| | paper title | Affiliation | official repo | publisher | 논문 발표 | 코드 분석
--- | -- | -- | -- | -- | -- | --
-3주차 | VQ-VAE: Neural Discrete Representation Learning | Deepmind | link | NIPS 2017 |   |
-4주차 | CPC v1: Representation Learning with Contrastive Predictive Coding | Deepmind | link | NIPS 2018 |   |
+| | paper title | 논문 발표 | 코드 분석
+-- | -- | -- | --
+3주차 | [VQ-VAE: Neural Discrete Representation Learning](https://arxiv.org/abs/1711.00937) |   |
+4주차 | [CPC v1: Representation Learning with Contrastive Predictive Coding](https://arxiv.org/abs/1807.03748) |   |
 
 ####  Instance-level contrastive learning
 
-
-| | paper title | Affiliation | official repo | publisher | 논문 발표 | 코드 분석
+| | paper title | 논문 발표 | 코드 분석 | Affiliation | official repo | publisher
 -- | -- | -- | -- | -- | -- | --
-5주차 | MoCo v1: Momentum Contrast for Unsupervised Visual Representation Learning | Facebook | link | CVPR 2020 |   |
-6주차 | SimCLR: A Simple Framework for Contrastive Learning of Visual Representations | Google | link | CVPR 2020 |   |
+5주차 | [MoCo v1: Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722) |   |   | Facebook | link | CVPR 2020
+6주차 | [SimCLR: A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709) |   |   | Google | link | CVPR 2020
+
 
 #### Self-supervised learning withtout negative examples
 
-| | paper title | Affiliation | official repo | publisher | 논문 발표 | 코드 분석
+| | paper title | 논문 발표 | 코드 분석 | Affiliation | official repo | publisher
 -- | -- | -- | -- | -- | -- | --
-7주차 | SwAV: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments | Facebook | link | NeurIPS 2020 |   |
-8주차 | SimSiam: Exploring Simple Siamese Representation Learning | Facebook | link | CVPR 2021 |   |
-8주차 | warp-up |   |   |   | 강재욱 |
+7주차 | [SwAV: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments](https://arxiv.org/abs/2006.09882) |   |   | Facebook | link | NeurIPS 2020
+8주차 | [SimSiam: Exploring Simple Siamese Representation Learning](https://arxiv.org/abs/2011.10566) |   |   | Facebook | link | CVPR 2021
+8주차 | warp-up | 강재욱 |   |   |   |
 
 
 
