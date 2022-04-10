@@ -44,6 +44,5 @@
 8주차 | [SimSiam: Exploring Simple Siamese Representation Learning](https://arxiv.org/abs/2011.10566) |   |   
 8주차 | warp-up | [강재욱](https://github.com/jwkanggist) |   
 
-
 ## 관련 링크
 - [모두의 연구소 풀잎스쿨 페이지](https://modulabs.co.kr/product/flip18th-6483-2022-03-05-165818/?fbclid=IwAR0AlTRIM7tNg3bo9xpCNg2bTGZxPKZnOPNzCmiBMX0gCKhpb9Ol8HIm_40)
