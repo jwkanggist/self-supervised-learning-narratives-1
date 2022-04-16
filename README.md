@@ -8,6 +8,7 @@
 
 ## 기간
 - 2022년 4월 16일 ~ 2022년 06월 04일
+- 오전 10시30분 ~ 오후 12시
 
 ## 발표 논문 및 순서
 > [google sheet](https://docs.google.com/spreadsheets/d/1P-pACgU9G0xq6M9Gufad-3tLUBavSMyUL0NIdd6TVH8/edit#gid=0)
