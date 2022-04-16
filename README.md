@@ -43,7 +43,7 @@
 -- | -- | -- | --
 8주차 | [SwAV: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments](https://arxiv.org/abs/2006.09882) |   |   
 9주차 | [SimSiam: Exploring Simple Siamese Representation Learning](https://arxiv.org/abs/2011.10566) |   |   
-10주차 | [BYOL:  Bootstrap your own latent: A new approach to self-supervised Learning (https://arxiv.org/abs/2006.07733) | |
+10주차 | [BYOL:  Bootstrap your own latent: A new approach to self-supervised Learning](https://arxiv.org/abs/2006.07733) | |
 
 11주차 | warp-up | [강재욱](https://github.com/jwkanggist) |   
 
