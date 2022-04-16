@@ -18,32 +18,34 @@
 | | paper title | 논문 발표 | 코드 분석
 -- | -- | -- | --
 1주차 | [DEC: Unsupervised Deep Embedding for Clustering Analysis](https://proceedings.mlr.press/v48/xieb16.pdf) | [강재욱](https://github.com/jwkanggist) | [강재욱](https://github.com/jwkanggist)
-1주차 | [DAC: Deep Adaptive Image Clustering](https://openaccess.thecvf.com/content_ICCV_2017/papers/Chang_Deep_Adaptive_Image_ICCV_2017_paper.pdf) | [강재욱](https://github.com/jwkanggist) | [강재욱](https://github.com/jwkanggist)
-2주차 | [DeepClustering: Deep Clustering for Unsupervised Learning of Visual Features](https://arxiv.org/abs/1807.05520) |   |
+2주차 | [DAC: Deep Adaptive Image Clustering](https://openaccess.thecvf.com/content_ICCV_2017/papers/Chang_Deep_Adaptive_Image_ICCV_2017_paper.pdf) | | 
+3주차 | [DeepClustering: Deep Clustering for Unsupervised Learning of Visual Features](https://arxiv.org/abs/1807.05520) |   |
 
 
 #### Representation learning 코어 기술
 
 | | paper title | 논문 발표 | 코드 분석
 -- | -- | -- | --
-3주차 | [VQ-VAE: Neural Discrete Representation Learning](https://arxiv.org/abs/1711.00937) |   |
-4주차 | [CPC v1: Representation Learning with Contrastive Predictive Coding](https://arxiv.org/abs/1807.03748) |   |
+4주차 | [VQ-VAE: Neural Discrete Representation Learning](https://arxiv.org/abs/1711.00937) |   |
+5주차 | [CPC v1: Representation Learning with Contrastive Predictive Coding](https://arxiv.org/abs/1807.03748) |   |
 
 ####  Instance-level contrastive learning
 
 | | paper title | 논문 발표 | 코드 분석
 -- | -- | -- | --
-5주차 | [MoCo v1: Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722) |   |   
-6주차 | [SimCLR: A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709) |   |   
+6주차 | [MoCo v1: Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722) |   |   
+7주차 | [SimCLR: A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709) |   |   
 
 
 #### Self-supervised learning withtout negative examples
 
 | | paper title | 논문 발표 | 코드 분석
 -- | -- | -- | --
-7주차 | [SwAV: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments](https://arxiv.org/abs/2006.09882) |   |   
-8주차 | [SimSiam: Exploring Simple Siamese Representation Learning](https://arxiv.org/abs/2011.10566) |   |   
-8주차 | warp-up | [강재욱](https://github.com/jwkanggist) |   
+8주차 | [SwAV: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments](https://arxiv.org/abs/2006.09882) |   |   
+9주차 | [SimSiam: Exploring Simple Siamese Representation Learning](https://arxiv.org/abs/2011.10566) |   |   
+10주차 | [BYOL:  Bootstrap your own latent: A new approach to self-supervised Learning (https://arxiv.org/abs/2006.07733) | |
+
+11주차 | warp-up | [강재욱](https://github.com/jwkanggist) |   
 
 ## 관련 링크
 - [모두의 연구소 풀잎스쿨 페이지](https://modulabs.co.kr/product/flip18th-6483-2022-03-05-165818/?fbclid=IwAR0AlTRIM7tNg3bo9xpCNg2bTGZxPKZnOPNzCmiBMX0gCKhpb9Ol8HIm_40)
