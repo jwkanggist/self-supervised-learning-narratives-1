@@ -6,7 +6,7 @@
 
 - 우리가 매주 모이는 [zoom link](https://us02web.zoom.us/j/4705445325?pwd=Mk9UeklVU3hGN2p5YkhjaVNvc01hdz09
 )
-- 암호: clustering
+    - zoom 암호: clustering
 
 회의 ID: 470 544 5325
 암호: clustering
