@@ -4,6 +4,7 @@
 - 우리는 현시점에서 지난 2년간 정말 역사적으로 의미가 있었던 self-supervised learning 논문을 다시 봅니다.
 - 해당 논문에서 제시하는 메소드의 특징 그리고 역사적으로 평가되는 이유에 대해서 즐겁게 토론하는 시간을 가집니다. 
 
+- 우리가 매주 모이는 [zoom link](https://us02web.zoom.us/j/81125122518?pwd=ejYxQ2pGdm0rWUQ4bm9ZY1IwVHdyUT09)
 
 ## 기간
 - 2022년 4월 16일 ~ 2022년 06월 04일
