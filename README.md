@@ -18,7 +18,7 @@
 | | paper title | 논문 발표 | 코드 분석
 -- | -- | -- | --
 1주차 | [DEC: Unsupervised Deep Embedding for Clustering Analysis](https://proceedings.mlr.press/v48/xieb16.pdf) | [강재욱](https://github.com/jwkanggist) | [강재욱](https://github.com/jwkanggist)
-2주차 | [DAC: Deep Adaptive Image Clustering](https://openaccess.thecvf.com/content_ICCV_2017/papers/Chang_Deep_Adaptive_Image_ICCV_2017_paper.pdf) | [김건](https://github.com/Lightning2) | 김세용(https://github.com/rest1h)
+2주차 | [DAC: Deep Adaptive Image Clustering](https://openaccess.thecvf.com/content_ICCV_2017/papers/Chang_Deep_Adaptive_Image_ICCV_2017_paper.pdf) | [김건](https://github.com/Lightning2) | [김세용](https://github.com/rest1h)
 3주차 | [DeepClustering: Deep Clustering for Unsupervised Learning of Visual Features](https://arxiv.org/abs/1807.05520) |   | 김희은(https://github.com/hekim3434)
 
 
@@ -26,22 +26,22 @@
 
 | | paper title | 논문 발표 | 코드 분석
 -- | -- | -- | --
-4주차 | [VQ-VAE: Neural Discrete Representation Learning](https://arxiv.org/abs/1711.00937) | 김기범(https://github.com/isingmodel)  | 황중원(https://github.com/HwangJohn)
-5주차 | [CPC v1: Representation Learning with Contrastive Predictive Coding](https://arxiv.org/abs/1807.03748) |   | 김세용(https://github.com/rest1h)
+4주차 | [VQ-VAE: Neural Discrete Representation Learning](https://arxiv.org/abs/1711.00937) | [김기범](https://github.com/isingmodel)  | [황중원](https://github.com/HwangJohn)
+5주차 | [CPC v1: Representation Learning with Contrastive Predictive Coding](https://arxiv.org/abs/1807.03748) |   | [김세용](https://github.com/rest1h)
 
 ####  Instance-level contrastive learning
 
 | | paper title | 논문 발표 | 코드 분석
 -- | -- | -- | --
-6주차 | [MoCo v1: Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722) | 오진우(https://github.com/deeesp) |  최원석(https://github.com/wons20k)
-7주차 | [SimCLR: A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709) | 이영수(https://github.com/haconedu)  | 이동형(https://github.com/abidan-korea)   
+6주차 | [MoCo v1: Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722) | [오진우](https://github.com/deeesp) |  [최원석](https://github.com/wons20k)
+7주차 | [SimCLR: A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709) | [이영수](https://github.com/haconedu)  | [이동형](https://github.com/abidan-korea)   
 
 
 #### Self-supervised learning withtout negative examples
 
 | | paper title | 논문 발표 | 코드 분석
 -- | -- | -- | --
-8주차 | [SwAV: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments](https://arxiv.org/abs/2006.09882) |  전우현(https://github.com/woohyuun) |  이수아(https://github.com/sooahleex)
+8주차 | [SwAV: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments](https://arxiv.org/abs/2006.09882) |  [전우현](https://github.com/woohyuun) |  [이수아](https://github.com/sooahleex)
 8주차 | warp-up | [강재욱](https://github.com/jwkanggist) |   
 
 
