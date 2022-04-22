@@ -14,10 +14,17 @@ def conv_block(in_channels: int, out_channels: int, kernel_size: int, bn_momentu
 
 def pooling_block(kernel_size, out_channels, bn_momentum, bn_track_running_stats, pooling):
     return nn.Sequential(
-        pooling(kernel_size=(2, 2)),
+        pooling(kernel_size=kernel_size),
         nn.BatchNorm2d(out_channels, momentum=bn_momentum, track_running_stats=bn_track_running_stats)
     )
 
+def conv_net_block(in_channels, out_channels, kernel_size, bn_momentum, bn_track_running_stats, pooling_size):
+    return nn.Sequential(
+        conv_block(in_channels, out_channels, kernel_size, bn_momentum, bn_track_running_stats),
+        conv_block(out_channels, out_channels, kernel_size, bn_momentum, bn_track_running_stats),
+        conv_block(out_channels, out_channels, kernel_size, bn_momentum, bn_track_running_stats),
+        pooling_block(pooling_size, out_channels, bn_momentum, bn_track_running_stats, nn.MaxPool2d)
+        )
 
 def mlp(in_dim, out_dim, bn_momentum, bn_track_running_stats):
     return nn.Sequential(
@@ -34,18 +41,8 @@ class MNISTNetwork(nn.Module):
         self.config = config
         bn_track_running_stats = self.config["track_running_stats"]
         bn_momentum = 0.01
-        self.net1 = nn.Sequential(
-            conv_block(1, 64, 3, bn_momentum, bn_track_running_stats),
-            conv_block(64, 64, 3, bn_momentum, bn_track_running_stats),
-            conv_block(64, 64, 3, bn_momentum, bn_track_running_stats),
-            pooling_block((2, 2), 64, bn_momentum, bn_track_running_stats, nn.MaxPool2d)
-        )
-        self.net2 = nn.Sequential(
-            conv_block(64, 128, 3, bn_momentum, bn_track_running_stats),
-            conv_block(128, 128, 3, bn_momentum, bn_track_running_stats),
-            conv_block(128, 128, 3, bn_momentum, bn_track_running_stats),
-            pooling_block((2, 2), 128, bn_momentum, bn_track_running_stats, nn.MaxPool2d)
-        )
+        self.net1 = conv_net_block(1, 64, 3, bn_momentum, bn_track_running_stats, (2, 2))
+        self.net1 = conv_net_block(64, 128, 3, bn_momentum, bn_track_running_stats, (2, 2))
         self.net3 = nn.Sequential(
             conv_block(128, 10, 1, bn_momentum, bn_track_running_stats),
             pooling_block((2, 2), 128, bn_momentum, bn_track_running_stats, nn.AvgPool2d)
