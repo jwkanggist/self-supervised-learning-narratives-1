@@ -1,10 +1,13 @@
+import torch
 from torch import nn
 
 
 def conv_block(in_channels: int, out_channels: int, kernel_size: int):
     return nn.Sequential(
         nn.Conv2d(
-            in_channels=in_channels, out_channels=out_channels, kernel_size=kernel_size
+            in_channels=in_channels,
+            out_channels=out_channels,
+            kernel_size=kernel_size
         ),
         nn.BatchNorm2d(out_channels),
         nn.ReLU(),
@@ -12,7 +15,10 @@ def conv_block(in_channels: int, out_channels: int, kernel_size: int):
 
 
 def pooling_block(kernel_size, out_channels, pooling):
-    return nn.Sequential(pooling(kernel_size=kernel_size), nn.BatchNorm2d(out_channels))
+    return nn.Sequential(
+        pooling(kernel_size=kernel_size),
+        nn.BatchNorm2d(out_channels)
+    )
 
 
 def conv_net_block(in_channels, out_channels, kernel_size, pooling_size):
@@ -25,7 +31,11 @@ def conv_net_block(in_channels, out_channels, kernel_size, pooling_size):
 
 
 def mlp(in_dim, out_dim):
-    return nn.Sequential(nn.Linear(in_dim, out_dim), nn.BatchNorm1d(out_dim), nn.ReLU())
+    return nn.Sequential(
+        nn.Linear(in_dim, out_dim),
+        nn.BatchNorm1d(out_dim),
+        nn.ReLU()
+    )
 
 
 class MNISTNetwork(nn.Module):
@@ -39,7 +49,7 @@ class MNISTNetwork(nn.Module):
         self.net4 = nn.Sequential(mlp(10, 10), mlp(10, 10))
         self.softmax = nn.Softmax(dim=1)
 
-    def forward(self, x_in):
+    def forward(self, x_in: torch.Tensor):
         x = self.net1(x_in)
         x = self.net2(x)
         x = self.net3(x)
