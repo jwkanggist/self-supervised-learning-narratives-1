@@ -27,7 +27,7 @@
 | | paper title | 논문 발표 | 코드 분석
 -- | -- | -- | --
 4주차 | [VQ-VAE: Neural Discrete Representation Learning](https://arxiv.org/abs/1711.00937) | [김기범](https://github.com/isingmodel)  | [황중원](https://github.com/HwangJohn)
-5주차 | [CPC v1: Representation Learning with Contrastive Predictive Coding](https://arxiv.org/abs/1807.03748) |   | [김세용](https://github.com/rest1h)
+5주차 | [CPC v1: Representation Learning with Contrastive Predictive Coding](https://arxiv.org/abs/1807.03748) | [정두해](https://github.com/Doohae)  | [김세용](https://github.com/rest1h)
 
 ####  Instance-level contrastive learning
 
