@@ -19,7 +19,7 @@
 -- | -- | -- | --
 1주차 | [DEC: Unsupervised Deep Embedding for Clustering Analysis](https://proceedings.mlr.press/v48/xieb16.pdf) | [강재욱](https://github.com/jwkanggist) | [강재욱](https://github.com/jwkanggist)
 2주차 | [DAC: Deep Adaptive Image Clustering](https://openaccess.thecvf.com/content_ICCV_2017/papers/Chang_Deep_Adaptive_Image_ICCV_2017_paper.pdf) | [김건](https://github.com/Lightning2) | [김세용](https://github.com/rest1h)
-3주차 | [DeepClustering: Deep Clustering for Unsupervised Learning of Visual Features](https://arxiv.org/abs/1807.05520) | [김건](https://github.com/Lightning2)  | [김효실](https://github.com/hs1003)
+3주차 | [DeepClustering: Deep Clustering for Unsupervised Learning of Visual Features](https://arxiv.org/abs/1807.05520) | [김효실](https://github.com/hs1003)  | [김희은](https://github.com/hekim3434)
 
 
 #### Representation learning 코어 기술
