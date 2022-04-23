@@ -1,61 +1,48 @@
 from torch import nn
-# model 1 -> already trained ALL-ConvNets -> generate the high-level features of images
-
-# model 2 -> randomly initialized ALL-ConvNets -> capture the low-level features of images, since the randomly initialized filters act as edge detectors
 
 
-def conv_block(in_channels: int, out_channels: int, kernel_size: int, bn_momentum: float, bn_track_running_stats):
+def conv_block(in_channels: int, out_channels: int, kernel_size: int):
     return nn.Sequential(
-        nn.Conv2d(in_channels=in_channels, out_channels=out_channels, kernel_size=kernel_size),
-        nn.BatchNorm2d(64, momentum=bn_momentum, track_running_stats=bn_track_running_stats),
-        nn.ReLU()
+        nn.Conv2d(
+            in_channels=in_channels, out_channels=out_channels, kernel_size=kernel_size
+        ),
+        nn.BatchNorm2d(out_channels),
+        nn.ReLU(),
     )
 
 
-def pooling_block(kernel_size, out_channels, bn_momentum, bn_track_running_stats, pooling):
+def pooling_block(kernel_size, out_channels, pooling):
+    return nn.Sequential(pooling(kernel_size=kernel_size), nn.BatchNorm2d(out_channels))
+
+
+def conv_net_block(in_channels, out_channels, kernel_size, pooling_size):
     return nn.Sequential(
-        pooling(kernel_size=kernel_size),
-        nn.BatchNorm2d(out_channels, momentum=bn_momentum, track_running_stats=bn_track_running_stats)
+        conv_block(in_channels, out_channels, kernel_size),
+        conv_block(out_channels, out_channels, kernel_size),
+        conv_block(out_channels, out_channels, kernel_size),
+        pooling_block(pooling_size, out_channels, nn.MaxPool2d),
     )
 
-def conv_net_block(in_channels, out_channels, kernel_size, bn_momentum, bn_track_running_stats, pooling_size):
-    return nn.Sequential(
-        conv_block(in_channels, out_channels, kernel_size, bn_momentum, bn_track_running_stats),
-        conv_block(out_channels, out_channels, kernel_size, bn_momentum, bn_track_running_stats),
-        conv_block(out_channels, out_channels, kernel_size, bn_momentum, bn_track_running_stats),
-        pooling_block(pooling_size, out_channels, bn_momentum, bn_track_running_stats, nn.MaxPool2d)
-        )
 
-def mlp(in_dim, out_dim, bn_momentum, bn_track_running_stats):
-    return nn.Sequential(
-        nn.Linear(10, 10),
-        nn.BatchNorm1d(10, momentum=bn_momentum,
-                       track_running_stats=bn_track_running_stats),
-        nn.ReLU()
-    )
+def mlp(in_dim, out_dim):
+    return nn.Sequential(nn.Linear(in_dim, out_dim), nn.BatchNorm1d(out_dim), nn.ReLU())
 
 
 class MNISTNetwork(nn.Module):
-    def __init__(self, config: dict):
+    def __init__(self):
         super(MNISTNetwork, self).__init__()
-        self.config = config
-        bn_track_running_stats = self.config["track_running_stats"]
-        bn_momentum = 0.01
-        self.net1 = conv_net_block(1, 64, 3, bn_momentum, bn_track_running_stats, (2, 2))
-        self.net1 = conv_net_block(64, 128, 3, bn_momentum, bn_track_running_stats, (2, 2))
+        self.net1 = conv_net_block(1, 64, 3, (2, 2))
+        self.net2 = conv_net_block(64, 128, 3, (2, 2))
         self.net3 = nn.Sequential(
-            conv_block(128, 10, 1, bn_momentum, bn_track_running_stats),
-            pooling_block((2, 2), 128, bn_momentum, bn_track_running_stats, nn.AvgPool2d)
+            conv_block(128, 10, 1), pooling_block((2, 2), 10, nn.AvgPool2d)
         )
-        self.net4 = nn.Sequential(
-            mlp(10, 10, bn_momentum, bn_track_running_stats),
-            mlp(10, 10, bn_momentum, bn_track_running_stats)
-        )
+        self.net4 = nn.Sequential(mlp(10, 10), mlp(10, 10))
         self.softmax = nn.Softmax(dim=1)
 
     def forward(self, x_in):
         x = self.net1(x_in)
         x = self.net2(x)
         x = self.net3(x)
+        x = x.view(-1, 10)
         x = self.net4(x)
         return self.softmax(x)
