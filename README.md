@@ -32,7 +32,7 @@
 
 | | paper title | 논문 발표 | 코드 분석
 -- | -- | -- | --
-6주차 | [MoCo v1: Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722) | [오진우](https://github.com/deeesp) |  [최원석](https://github.com/wons20k)
+6주차 | [MoCo v1: Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722) | [오진우](https://github.com/deeesp) |  
 7주차 | [SimCLR: A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709) | [이영수](https://github.com/haconedu)  | [이동형](https://github.com/abidan-korea)   
 
 
