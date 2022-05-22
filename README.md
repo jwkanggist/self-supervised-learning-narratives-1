@@ -25,14 +25,14 @@
 
 | | paper title | 논문 발표 | 코드 분석
 -- | -- | -- | --
-4주차 | [VQ-VAE: Neural Discrete Representation Learning](https://arxiv.org/abs/1711.00937) | [김기범](https://github.com/isingmodel)  | [황중원](https://github.com/HwangJohn)
+4주차 | [VQ-VAE: Neural Discrete Representation Learning](https://arxiv.org/abs/1711.00937) ([논문리뷰영상](https://www.youtube.com/watch?v=tF1WSN-11PQ))  | [김기범](https://github.com/isingmodel)  | [황중원](https://github.com/HwangJohn)
 5주차 | [CPC v1: Representation Learning with Contrastive Predictive Coding](https://arxiv.org/abs/1807.03748) | [정두해](https://github.com/Doohae)  | [김세용](https://github.com/rest1h)
 
 ####  Instance-level contrastive learning
 
 | | paper title | 논문 발표 | 코드 분석
 -- | -- | -- | --
-6주차 | [MoCo v1: Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722) | [오진우](https://github.com/deeesp) |  
+6주차 | [MoCo v1: Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722) ([논문리뷰영상](https://youtu.be/S-FsnPxAEFA))  | [오진우](https://github.com/deeesp) |  
 7주차 | [SimCLR: A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709) | [이영수](https://github.com/haconedu)  | [이동형](https://github.com/abidan-korea)   
 
 
