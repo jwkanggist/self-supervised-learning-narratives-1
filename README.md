@@ -41,8 +41,8 @@
 
 | | paper title | 논문 발표 | 코드 분석
 -- | -- | -- | --
-8차 | [SimCLR: A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709) | [이영수](https://github.com/haconedu)  | [이동형](https://github.com/abidan-korea)   
-9차 | warp-up | [강재욱](https://github.com/jwkanggist) |   
+8주차 | [SimCLR: A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709) | [이영수](https://github.com/haconedu)  | [이동형](https://github.com/abidan-korea)   
+9주차 | warp-up | [강재욱](https://github.com/jwkanggist) |   
 
 
 <!-- 9주차 | [SimSiam: Exploring Simple Siamese Representation Learning](https://arxiv.org/abs/2011.10566) |   |   
