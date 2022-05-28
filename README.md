@@ -33,7 +33,7 @@
 | | paper title | 논문 발표 | 코드 분석
 -- | -- | -- | --
 6주차 | [MoCo v1: Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722) ([논문리뷰영상](https://youtu.be/S-FsnPxAEFA))  | [오진우](https://github.com/deeesp) |  
-7주차 | [SwAV: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments](https://arxiv.org/abs/2006.09882) |  [박성훈](https://github.com/futuremine97)
+7주차 | [SwAV: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments](https://arxiv.org/abs/2006.09882) ([논문리뷰영상](https://youtu.be/6u_yt_Ql3qs))  |  [박성훈](https://github.com/futuremine97)
 
 
 
