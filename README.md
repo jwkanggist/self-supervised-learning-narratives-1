@@ -32,8 +32,8 @@
 
 | | paper title | 논문 발표 | 코드 분석
 -- | -- | -- | --
-6주차 | [MoCo v1: Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722) ([논문리뷰영상](https://youtu.be/S-FsnPxAEFA))  | [오진우](https://github.com/deeesp) |  
-7주차 | [SwAV: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments](https://arxiv.org/abs/2006.09882) ([논문리뷰영상](https://youtu.be/6u_yt_Ql3qs))  |  [박성훈](https://github.com/futuremine97) |
+6주차 | [MoCo v1: Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722) ([논문리뷰영상](https://youtu.be/S-FsnPxAEFA))  | [오진우](https://github.com/deeesp) 
+7주차 | [SwAV: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments](https://arxiv.org/abs/2006.09882) ([논문리뷰영상](https://youtu.be/6u_yt_Ql3qs))  |  [박성훈](https://github.com/futuremine97) 
 
 
 
@@ -42,7 +42,7 @@
 | | paper title | 논문 발표 | 코드 분석
 -- | -- | -- | --
 8주차 | [SimCLR: A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709) ([논문리뷰영상](https://youtu.be/8Sc7dQpUm1Q)), ([코드리뷰영상](https://youtu.be/UX4MgSZ69I4))  | [이영수](https://github.com/haconedu)  | [이동형](https://github.com/abidan-korea)   
-9주차 | warp-up | [강재욱](https://github.com/jwkanggist) |   
+9주차 | warp-up | [강재욱](https://github.com/jwkanggist)    
 
 
 <!-- 9주차 | [SimSiam: Exploring Simple Siamese Representation Learning](https://arxiv.org/abs/2011.10566) |   |   
