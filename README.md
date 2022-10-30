@@ -1,4 +1,4 @@
-# 거꾸로 읽는 self-supervised-learning 파트1
+# [스터디 종료] 거꾸로 읽는 self-supervised-learning 파트1
 
 - 정말 세상에 좋은 모델이 너무 많고, 유명한 논문도 너무 많습니다. 
 - 우리는 현시점에서 지난 2년간 정말 역사적으로 의미가 있었던 self-supervised learning 논문을 다시 봅니다.
